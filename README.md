@@ -14,3 +14,6 @@ Here are the 5 ranges and what they mean:
 - 3xx: Redirect. The requested page has moved somewhere else.
 - 4xx: Client error. There 's something wrong with the way the browser asked for the page.
 - 5xx: Server error. Something went wrong with the way the server tried to send the page.
+
+## HTTP Status Codes Important for SEO
+   Obviously, all status codes are important "you should know how healthy your site is" but there are certain ones that particularly important for SEO and anyone working on a website.
