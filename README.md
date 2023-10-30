@@ -16,4 +16,4 @@ Here are the 5 ranges and what they mean:
 - 5xx: Server error. Something went wrong with the way the server tried to send the page.
 
 ## HTTP Status Codes Important for SEO
-   Obviously, all status codes are important "you should know how healthy your site is" but there are certain ones that particularly important for SEO and anyone working on a website.
+   Obviously, all status codes are important "you should know how healthy your site is" but there are certain ones that particularly important for SEO(Search Engine Optimization) and anyone working on a website.
