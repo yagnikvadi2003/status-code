@@ -22,7 +22,8 @@ Here are the 5 ranges and what they mean:
    Obviously, all status codes are important "You should know how healthy your site is" but there are certain ones that are particularly important for SEO(Search Engine Optimization) and anyone working on a website.
 
 
-## 1xx: HTTP Informational Codes
+## 1xx
+ **HTTP Informational Codes**
 
 **100**
 ---
