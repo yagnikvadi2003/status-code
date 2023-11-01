@@ -58,13 +58,13 @@ Here are the 5 ranges and what they mean:
 ---
 > This is the standard response for successful HTTP requests. The actual meaning of the response depends on the request method used:
 
-**GET:** Resource obtained and is in the message body
+> **GET:** Resource obtained and is in the message body.
 
-**HEAD:** Headers are included in the response
+> **HEAD:** Headers are included in the response.
 
-**POST or PUT:** Resource describing the result of the action sent is in the message body
+> **POST or PUT:** The Resource describing the result of the action sent is in the message body.
 
-**TRACE:** Message body contains the request message as received by the server
+> **TRACE:** Message body contains the request message as received by the server.
 <br>
 
 **201 - Created:** 
