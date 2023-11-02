@@ -150,3 +150,223 @@ Here are the 5 ranges and what they mean:
 ---
 > This and all future requests should be repeated using a different URI as specified. Unlike 301 and 302, with 307 and 308 status codes the HTTP method should not change.
 <br>
+
+## 4xx 	
+---
+> Client Error
+<br>
+
+**400 - Bad Request**
+---
+> The request cannot be processed by the server because of a client error such as syntax, framing, or routing.
+<br>
+
+**401 - Unauthorized**
+---
+> Indicates that authentication is required and was either not provided or has failed. If the request already included authorization credentials, then the 401 status code indicates that those credentials were not accepted.
+<br>
+
+**402 - Payment Required**
+---
+> Reserved for future use. Originally intended to be part of a digital cash or micropayment model, this code is not currently widely used.
+<br>
+
+**403 - Forbidden**
+---
+> Indicates that though the request was valid, the server refuses to respond to it. Unlike the 401 status code, providing authentication will not change the outcome.
+<br>
+
+**404 - Not Found**
+---
+> Indicates that the requested resource could not be found but may be available in the future.
+<br>
+
+**405 - Method Not Allowed**
+---
+> The request method is not supported by the resource requested, as when using GET on a form that requires data to be presented via POST.
+<br>
+
+**406 - Not Acceptable**
+---
+> The requested content is not acceptable according to the requestÕs Accept headers.
+<br>
+
+**407 - Proxy Authentication Required (RFC 7235)**
+---
+> The client must first authenticate itself with the proxy.
+<br>
+
+**408 - Request Timeout**
+---
+> Indicates that the server timed out while waiting for the request, though the client may repeat the request without modifications.
+<br>
+
+**409 - Conflict**
+---
+> There is a conflict in the request that prevents it from being processedÑfor example, an edit conflict in the case of multiple updates.
+<br>
+
+**410 - Gone**
+---
+> The requested resource is no longer available and will not be available again, as when a resource has been intentionally removed and should be purged. The client should not request the resource again.
+<br>
+
+**411 - Length Required**
+---
+> The request did not specify the length of its content, though length is required by the requested source.
+<br>
+
+**412 - Precondition Failed (RFC 7232)**
+---
+> Indicates that the server does not meet the request preconditions as specified by requester.
+<br>
+
+**413 - Request Entity Too Large**
+---
+> Indicates that the request is larger than the server can or will process.
+<br>
+
+**414 - Request-URI Too Long**
+---
+> The provided URI was too long to be processed by the server. When resulting from too much data encoded as GET request query-string, convert to a POST request.
+<br>
+
+**415 - Unsupported Media Type**
+---
+> The server does not support the media type included by the request entity.
+<br>
+
+**416 - Requested Range Not Satisfiable (RFC 7233)**
+---
+> Indicates that the client has requested a portion of the file that the server is unable to provide, such as a part of the file that lies beyond the end of the file.
+<br>
+
+**417 - Expectation Failed**
+---
+> Indicates that the server is unable to meet the requirements of Expect request-header field.
+<br>
+
+**418 - I'm a teapot (RFC 2324)**
+---
+> Defined in 1998 as a traditional IETF April FoolÕs joke and is not expected to be implemented by actual HTTP servers. The RFC specifies that this code should be returned by teapots requested to brew coffee.
+<br>
+
+**419 - Authentication Timeout (not in RFC 2616)**
+---
+> Indicates that previously valid authentication has expired. Though not a part of the HTTP standard, the 419 status code is used as an alternative to 401 to differentiate from unauthorized clients being denied access.
+<br>
+
+**420 - Method Failure (Spring Framework)**
+---
+> Defined by Spring in the HttpStatus class to be used when a method fails. Not a part of the HTTP standard, this status code is deprecated by Spring.
+<br>
+
+**420 - Enhance Your Calm (Twitter)**
+---
+> Returned by version 1 of the Twitter Search and Trends API when the client is being rate limited. Not a part of the HTTP standard.
+<br>
+
+**421 - Misdirected Request (HTTP/2)**
+---
+> Indicates that the request is directed at a server that is unable to produce a response.
+<br>
+
+**422 - Unprocessable Entity (WebDAV; RFC 4918)**
+---
+> Indicates that the request is unable to be followed due to semantic errors.
+<br>
+
+**423 - Locked (WebDAV; RFC 4918)**
+---
+> Indicates that the resource that is being accessed is locked.
+<br>
+
+**424 - Failed Dependency (WebDAV; RFC 4918)**
+---
+>Indicates that the request failed because of the failure of a previous request.
+<br>
+
+**426 - Upgrade Required**
+---
+> Indicates that the client should switch to a different protocol as specified in the Upgrade header field.
+<br>
+
+**428 - Precondition Required (RFC 6585)**
+---
+> Indicates that origin server requires the request to be conditional to prevent the Òlost updateÓ problem.
+<br>
+
+**429 - Too Many Requests (RFC 6585)**
+---
+> Occurs when the user has sent too many requests in a given amount of time. For use with rate limiting.
+<br>
+
+**431 - Request Header Fields Too Large (RFC 6585)**
+---
+> Indicates that the request cannot be processed by the server because a single header field or all headers are collectively too large.
+<br>
+
+**440 - Login Timeout (Microsoft)**
+---
+> Microsoft extension indicating that the session has expired.
+<br>
+
+**444 - No Response (Nginx)**
+---
+> In Nginx logs as a malware deterrent, indicates that the server returned no information and closed the connection.
+<br>
+
+**449 - Retry With (Microsoft)**
+---
+> Microsoft extension indicating that the request should be retried after performing a specific action.
+<br>
+
+**450 - Blocked by Windows Parental Controls (Microsoft)**
+---
+> Microsoft extension indicating that Windows Parental Controls are turned on and blocking access to the page in question.
+<br>
+
+**451 - Unavailable For Legal Reasons (Internet draft)**
+---
+> Indicates that resource access has been denied for legal reasons such as censorship or government-mandated blocked access. Defined in the Internet draft as "A New HTTP Status Code for Legally-restricted Resources." References the dystopian novel Fahrenheit 451 (1953), in which books are outlawed.
+<br>
+
+**451 - Redirect (Microsoft)**
+---
+> In Exchange ActiveSync, used when there is a more efficient server or the server cannot access the clientÕs mailbox. The client should re-run the HTTP Autodiscovery protocol to find a better-suited server.
+<br>
+
+**494 - Request Header Too Large (Nginx)**
+---
+> Similar to 431, Nginx internal code earlier in version 0.9.4.
+<br>
+
+**495 - Cert Error (Nginx)**
+---
+> Nginx internal code indicating that SSL client certificate error has occurred
+<br>
+
+**496 - No Cert (Nginx)**
+---
+> Nginx internal code indicating that the client didn't provide a certificate.
+<br>
+
+**497 - HTTP to HTTPS (Nginx)**
+---
+> Nginx internal code indicating that plain HTTP requests were sent to the HTTPS port.
+<br>
+
+**498 - Token Expired/Invalid (Esri)**
+---
+> Returned by ArcGIS for Server when the token is expired or otherwise invalid.
+<br>
+
+**499 - Client Closed Request (Nginx)**
+---
+> In Nginx logs, indicates that the connection has been closed by the client while the server is still processing its request, in which case the server is unable to send a status code back.
+<br>
+
+**499 - Token Required (Esri)**
+---
+> Returned by ArcGIS for Server when a token is required but was not submitted.
+<br>
