@@ -102,3 +102,51 @@ Here are the 5 ranges and what they mean:
 **226 — IM used:** 
 > The server completed a GET request. And the response indicates one or more instance-manipulation results.
 <br>
+
+## 3xx
+> Redirection
+
+**300 - Multiple Choices**
+---
+> Indicates multiple options for the resource delivered, such as format options for video or list files with different extensions. The user can select preferred representation and redirect the request to that location.
+<br>
+
+**301 - Moved Permanently**
+---
+> This request and all future ones should be directed to the given URI.
+<br>
+
+**302 - Found**
+---
+> Indicates that the requested resource can be found temporarily via an alternative URI. Because many popular user agent implementations treat 302 responses similar to 303 responses, both status codes 303 and 307 were added to allow servers more specificity.
+<br>
+
+**303 - See Other (since HTTP/1.1)**
+---
+> Indicates the response to the request can be found via alternative URI using GET method. Many pre-HTTP/1.1 user agents do not recognize 303, in which case the 302 status code can be used instead.
+<br>
+
+**304 - Not Modified (RFC 7232)**
+---
+> Indicates that the resource has not been modified since last requested, and there is no need to retransmit as the client has a previously downloaded copy.
+<br>
+
+**305 - Use Proxy (since HTTP/1.1)**
+---
+> Requested resource is located elsewhere and can be accessed through a proxy provided in the response. For security reasons, HTTP clients like Firefox and Internet Explorer do not correctly handle 305 responses.
+<br>
+
+**306 - Switch Proxy**
+---
+> Originally indicated that subsequent requests should use the proxy specified. This status code is no longer used.
+<br>
+
+**307 - Temporary Redirect (since HTTP/1.1)**
+---
+> Indicates that the request should be repeated with a different URI as specified, but future requests should use the original URI.
+<br>
+
+**308 - Permanent Redirect (RFC 7538)**
+---
+> This and all future requests should be repeated using a different URI as specified. Unlike 301 and 302, with 307 and 308 status codes the HTTP method should not change.
+<br>
