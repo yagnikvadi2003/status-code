@@ -50,7 +50,7 @@ Here are the 5 ranges and what they mean:
 > An IE7-only code that indicates that the URI is longer than the maximum 2,083 characters.
 <br>
 
-## 2xxs
+## 2xx
 > This status code category encompasses successful responses. 
 <br>
 
