@@ -152,7 +152,6 @@ Here are the 5 ranges and what they mean:
 <br>
 
 ## 4xx 	
----
 > Client Error
 <br>
 
