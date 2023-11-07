@@ -20,6 +20,21 @@ Here are the 5 ranges and what they mean:
 
 ## HTTP Status Codes Important for SEO
    Obviously, all status codes are important "You should know how healthy your site is" but there are certain ones that are particularly important for SEO(Search Engine Optimization) and anyone working on a website.
+<br>
+
+## The Different HTTP Status Codes Explained
+> There are five different HTTP status code categories (or classes). Each one represents a different response from the server to the browser.
+
+**1xx - Informational codes:** The server acknowledges and is processing the request.
+
+**2xx - Success codes:** The server successfully received, understood, and processed the request.
+
+**3xx - Redirection codes:** The server received the request, but there’s a redirect to somewhere else (or, in rare cases, some additional action other than a redirect must be completed). 
+
+**4xx - Client error codes:** The server couldn’t find (or reach) the page or website. This is an error on the site’s side. 
+
+**5xx - Server error codes:** The client made a valid request, but the server failed to complete the request. 
+<br>
 
 
 ## 1xx
