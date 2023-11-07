@@ -23,7 +23,7 @@ Here are the 5 ranges and what they mean:
 
 
 ## 1xx
- **HTTP Informational Codes**
+ > This category is informational, temporary, and invisible to the client. It indicates the server received the request and will proceed with it.
 
 **100**
 ---
@@ -51,7 +51,7 @@ Here are the 5 ranges and what they mean:
 <br>
 
 ## 2xx
-> This status code category encompasses successful responses. 
+> This status code category encompasses successful responses.  
 <br>
 
 **200 - OK**
@@ -104,7 +104,7 @@ Here are the 5 ranges and what they mean:
 <br>
 
 ## 3xx
-> Redirection
+> The status codes in this category show the resource is in a different location, and the user gets redirected as a result. 
 
 **300 - Multiple Choices**
 ---
@@ -152,7 +152,7 @@ Here are the 5 ranges and what they mean:
 <br>
 
 ## 4xx 	
-> Client Error
+> This category indicates the server can’t reach a page due to an error on the client side. 
 <br>
 
 **400 - Bad Request**
@@ -372,6 +372,7 @@ Here are the 5 ranges and what they mean:
 
 ## 5XX 	
 > This category includes errors on the server side.
+> They can be detrimental to your SEO, as search engines can prompt crawlers to slow down with crawling and remove indexed URLs that continually return these errors.
 <br>
 
 **500 - Internal Server Error**
