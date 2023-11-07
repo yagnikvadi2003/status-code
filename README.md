@@ -40,22 +40,22 @@ Here are the 5 ranges and what they mean:
 ## 1xx
  > This category is informational, temporary, and invisible to the client. It indicates the server received the request and will proceed with it.
 
-**100**
+**100 - Continue**
 ---
 >  The HTTP 100 Continue informational status response code **indicates that everything so far is OK and that the client should continue with the request or ignore it if it is already finished.**
 <br>
 
-**101**
+**101 - Switching protocols**
 ---
 >  The HTTP 101 Switching Protocols response code **indicates a protocol to which the server switches.** The protocol is specified in the Upgrade request header received from a client. The server includes in this response an Upgrade response header to indicate the protocol it switched to
 <br>
 
-**102**
+**102 - Processing**
 ---
 > The HTTP 102 Processing informational status response code **indicates to the client that a full request has been received and the server is working on it.** This status code is only sent if the server expects the request to take significant time. It tells the client that your request is not dead yet.
 <br>
 
-**103**
+**103 - Early hints**
 ---
 > The HTTP 103 **Early Hints** information response may be sent by a server while it is still preparing a response, with hints about the resources that the server is expecting the final response will link. This allows a browser to start preloading resources even before the server has prepared and sent that final response.
 <br>
