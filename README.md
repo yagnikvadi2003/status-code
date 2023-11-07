@@ -369,3 +369,57 @@ Here are the 5 ranges and what they mean:
 ---
 > Returned by ArcGIS for Server when a token is required but was not submitted.
 <br>
+
+## 5XX 	
+> This category includes errors on the server side.
+<br>
+
+**500 - Internal Server Error**
+---
+> The server has encountered an unexpected error and cannot complete the request. 
+<br>
+
+**501 - Not Implemented**
+---
+> The server can’t fulfill the request or doesn’t recognize the request method. 
+<br>
+
+**502 - Bad Gateway**
+---
+> The server acts as a gateway and gets an invalid response from an inbound host.
+<br>
+
+**503 - Service Unavailable**
+---
+> The server is unable to process the request. This often occurs when a server is overloaded or down for maintenance. 
+<br>
+
+**504 - Gateway Timeout**
+---
+> The server was acting as a gateway or proxy and timed out, waiting for a response. 
+<br>
+
+**505 - HTTP Version Not Supported**
+---
+> The server doesn’t support the HTTP version in the request.
+<br>
+
+**506 - Variant Also Negotiates**
+---
+> The server has an internal configuration error. 
+<br>
+
+**507 - Insufficient Storage**
+---
+> The server doesn’t have enough storage to process the request successfully. 
+<br>
+
+**508 - Loop Detected**
+---
+> The server detects an infinite loop while processing the request. 
+<br>
+
+**511 - Network Authentication Required**
+---
+> The client must be authenticated to access the network. The error should include a link where the user can submit credentials.
+<br>
