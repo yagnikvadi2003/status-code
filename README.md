@@ -1,8 +1,8 @@
 # HTTP Status Code
 
-  An HTTP status code is a message a website's server sends to the browser to indicate whether or not that request can be fulfilled.
+  This is a list of `Hypertext Transfer Protocol (HTTP)` response status codes. Status codes are issued by a server in response to a client's request made to the server. It includes codes from IETF Request for Comments (RFCs), other specifications, and some additional codes used in some common applications of the HTTP. The first digit of the status code specifies one of five standard classes of responses. The optional message phrases shown are typical, but any human-readable alternative may be provided, or none at all.
 
-  The W3C sets status codes specs. Status codes are embedded in the HTTP header of a page to tell the browser the result of its request.
+  The `Internet Assigned Numbers Authority (IANA)` maintains the official registry of HTTP status codes.
 
 ## The different status codes and what they say
 There are five ranges of HTTP status codes. Each range defines where the error was encountered and the number defines what the actual error was.
