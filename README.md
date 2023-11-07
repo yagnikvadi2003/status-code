@@ -435,6 +435,11 @@ Here are the 5 ranges and what they mean:
 > The server detects an infinite loop while processing the request. 
 <br>
 
+**510 Not Extended (RFC 2774)**
+---
+> Further extensions to the request are required for the server to fulfil it.[28]
+<br>
+
 **511 - Network Authentication Required**
 ---
 > The client must be authenticated to access the network. The error should include a link where the user can submit credentials.
